@@ -30,9 +30,21 @@ Cyclistic executives must approve your recommendations, so they must be backed u
 
 You will produce a report with the following deliverables:
 
-1. A clear statement of the business task
-2. A description of all data sources used
-3. Documentation of any cleaning or manipulation of data
-4. A summary of your analysis
-5. Supporting visualizations and key findings
-6. Your top three recommendations based on your analysis
+1. A clear statement of the business task.
+2. A description of all data sources used.
+3. Documentation of any cleaning or manipulation of data.
+4. A summary of your analysis.
+5. Supporting visualizations and key findings.
+6. Your recommendations based on your analysis
+
+
+##  Solution to the Problem
+
+### 1. Business Task
+
+The company Cyclistic aims to increase the amount of its annual memberships, as Cyclistic members are more profitable compared to casual riders. Our main task is to design marketing strategies that will encourage casual riders to convert into Cyclist members. In order to achieve this, the team needs to understand from our analysis how casual riders use bicycles compared to Cyclist members or otherwise how casual riders differ from Cyclistic members.
+
+
+### 2. Data Sources
+
+
