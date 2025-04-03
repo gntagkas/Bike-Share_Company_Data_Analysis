@@ -16,10 +16,23 @@ The majority of riders opt for traditional bikes; about 8% of riders use the ass
 
 Cyclistic’s finance analysts have concluded that annual members are much more profitable than casual riders. The director of marketing (Moreno) believes that maximizing the number of annual members will be key to future growth. Rather than creating a marketing campaign that targets all-new customers, Moreno believes there is a solid opportunity to convert casual riders into members.
 
+
 ### Goal of the Junior Data Analyst:
+
 
 The primary goal is to design marketing strategies aimed at converting Casual Riders into Annual Members.
 
-In order to do that, however, the team needs to better understand how annual members and casual riders differ, why casual riders would buy a membership, and how digital media could affect their marketing tactics.
+In order to achieve this, the team needs to better understand how annual members and casual riders differ, why casual riders would buy a membership, and how digital media could affect their marketing tactics.
 
+### Analysis and Report of the Junior Data Analyst:
 
+Cyclistic executives must approve your recommendations, so they must be backed up with compelling data insights and professional data visualizations.
+
+You will produce a report with the following deliverables:
+
+1. A clear statement of the business task
+2. A description of all data sources used
+3. Documentation of any cleaning or manipulation of data
+4. A summary of your analysis
+5. Supporting visualizations and key findings
+6. Your top three recommendations based on your analysis
