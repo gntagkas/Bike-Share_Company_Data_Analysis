@@ -150,4 +150,10 @@ From the above chart, we can notice that the average trip duration is significan
 
 **Line Chart**: Riding Patters by Day of the Week.
 
+![Line Chart](https://github.com/gntagkas/Bike_Company_Data_Analysis/blob/main/Screenshot_4.png)
 
+The line chart highlights a clear riding pattern:
+
+- Subscribers use bikes more frequently on weekdays, suggesting that they primarily use them for commuting to work
+
+- Casual riders on the other hand, tend to use bikes more on weekends, with a slight increase on Fridays, suggesting a preference for recreational use.
