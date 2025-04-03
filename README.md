@@ -112,3 +112,28 @@ While most checks showed no issues, two problems were identified and adressed:
 - However, 386 records had birthyear earlier than 1929, which was considered invalid. These records were replaced with NULL values.
 
 *Clarification: We consider any birthyear below 1929 to be invalid.*
+
+### 4. Analysis Summary
+
+Key Differences Between Casual Riders and Subscribers
+
+**Ride duration**
+
+- Casual riders tend to take longer rides than Subscribers.
+- The average trip duration for a Casual Rider is 40.41 minutes, while for a Subscriber it's only 14 minutes.
+
+**Popular Stations**
+
+- The most popular stations vary between Casual Riders and Subscribers.
+- No clear patterns were identified.
+
+**Riding Patterns**
+
+- Casual Riders tend to use bikes more on weekends, indicating entertainment purposes.
+- Subscribers tend to use bikes more on weekdays, indicating work-related use.
+
+**Age Patterns**
+
+- Subscribers are slightly older than Casual Riders.
+- Average age of a subscriber is 36 years old, compared to 30.6 years old for Casual Riders.
+- This age gap remains across both genders, with Subscribers being about 5.5 years older on average.
