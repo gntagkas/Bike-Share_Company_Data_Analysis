@@ -149,3 +149,5 @@ We present two key graphs: One focusing on ride duration and the other on riding
 From the above chart, we can notice that the average trip duration is significantly longer for casual riders compared to subscribers.
 
 **Line Chart**: Riding Patters by Day of the Week.
+
+
