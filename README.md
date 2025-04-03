@@ -144,7 +144,7 @@ We present two key graphs: One focusing on ride duration and the other on riding
 
 **Bar Chart**: Average Trip Duration by User Type
 
-![Bar Chart](https://github.com/gntagkas/Bike_Company_Data_Analysis/blob/main/Screenshot_6.png)
+![Bar Chart](https://github.com/gntagkas/Bike_Company_Data_Analysis/blob/main/BarChart.png)
 
 From the above chart, we can notice that the average trip duration is significantly longer for casual riders compared to subscribers.
 
