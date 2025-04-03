@@ -9,9 +9,17 @@ and riders who can’t use a standard two-wheeled bike.
 
 The bikes can be unlocked from one station and returned to any other station in the system anytime. The company decided to offer flexible pricing plans, including: single-ride passes, full-day passes, and annual memberships.
 
-- Customers who purchase single-ride or full-day passes are referred to as Casual Riders.
-- Customers who purchase annual memberships are Cyclistic members.
+- Casual Riders: Customers who purchase single-ride or fully-day passes.
+- Annual Members: Customers who purchase annual memberships.
 
 The majority of riders opt for traditional bikes; about 8% of riders use the assistive options. Cyclistic users are more likely to ride for leisure, but about 30% use the bikes to commute to work each day.
 
 Cyclistic’s finance analysts have concluded that annual members are much more profitable than casual riders. The director of marketing (Moreno) believes that maximizing the number of annual members will be key to future growth. Rather than creating a marketing campaign that targets all-new customers, Moreno believes there is a solid opportunity to convert casual riders into members.
+
+### Goal of the Junior Data Analyst:
+
+The primary goal is to design marketing strategies aimed at converting Casual Riders into Annual Members.
+
+In order to do that, however, the team needs to better understand how annual members and casual riders differ, why casual riders would buy a membership, and how digital media could affect their marketing tactics.
+
+
