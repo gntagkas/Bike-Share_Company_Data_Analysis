@@ -137,3 +137,13 @@ Key Differences Between Casual Riders and Subscribers
 - Subscribers are slightly older than Casual Riders.
 - Average age of a subscriber is 36 years old, compared to 30.6 years old for Casual Riders.
 - This age gap remains across both genders, with Subscribers being about 5.5 years older on average.
+
+### 5. Data Visualizations 
+
+We present two key graphs: One focusing on ride duration and the other on riding patterns.
+
+**Bar Chart**: Average Trip Duration by User Type
+
+![Bar Chart](D:\SQL_Data_For_Projects\Data_For_Cyclist\Screenshot2.png)
+
+From the above chart, we can notice that the average trip duration is significantly longer for casual riders compared to subscribers.
