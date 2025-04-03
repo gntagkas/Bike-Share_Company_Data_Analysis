@@ -16,15 +16,17 @@ The majority of riders opt for traditional bikes; about 8% of riders use the ass
 
 Cyclistic’s finance analysts have concluded that annual members are much more profitable than casual riders. The director of marketing (Moreno) believes that maximizing the number of annual members will be key to future growth. Rather than creating a marketing campaign that targets all-new customers, Moreno believes there is a solid opportunity to convert casual riders into members.
 
+---  
 
-### Goal of the Junior Data Analyst:
-
+### Goal of the Junior Data Analyst
 
 The primary goal is to design marketing strategies aimed at converting Casual Riders into Annual Members.
 
 In order to achieve this, the team needs to better understand how annual members and casual riders differ, why casual riders would buy a membership, and how digital media could affect their marketing tactics.
 
-### Analysis and Report of the Junior Data Analyst:
+---  
+
+### Analysis and Report of the Junior Data Analyst
 
 Cyclistic executives must approve your recommendations, so they must be backed up with compelling data insights and professional data visualizations.
 
@@ -44,6 +46,7 @@ You will produce a report with the following deliverables:
 
 The company Cyclistic aims to increase the amount of its annual memberships, as Cyclistic members are more profitable compared to casual riders. Our main task is to design marketing strategies that will encourage casual riders to convert into Cyclist members. In order to achieve this, the team needs to understand from our analysis how casual riders use bicycles compared to Cyclist members or otherwise how casual riders differ from Cyclistic members.
 
+---  
 
 ### 2. Data Sources
 
@@ -64,6 +67,8 @@ Data Credibility is ensured by the following:
 - The dataset is public and freely accessible to anyone.
 - The data doesn't include personally identifable information for privacy reasons, so individual user behaviors cannot be tracked.
 - The dataset has been made available by Motivate International Inc.
+
+---  
 
 ### 3. Data Cleaning & Manipulation
 
@@ -113,6 +118,8 @@ While most checks showed no issues, two problems were identified and adressed:
 
 *Clarification: We consider any birthyear below 1929 to be invalid.*
 
+---  
+
 ### 4. Analysis Summary
 
 Key Differences Between Casual Riders and Subscribers
@@ -138,6 +145,8 @@ Key Differences Between Casual Riders and Subscribers
 - Average age of a subscriber is 36 years old, compared to 30.6 years old for Casual Riders.
 - This age gap remains across both genders, with Subscribers being about 5.5 years older on average.
 
+---  
+
 ### 5. Data Visualizations 
 
 We present two key graphs: One focusing on ride duration and the other on riding patterns.
@@ -146,17 +155,23 @@ We present two key graphs: One focusing on ride duration and the other on riding
 
 ![Bar Chart](https://github.com/gntagkas/Bike_Company_Data_Analysis/blob/main/BarChart.png)
 
+**Chart 1: Bar Chart for Average Trip Duration by User Type.**
+<br><br>
 From the above chart, we can notice that the average trip duration is significantly longer for casual riders compared to subscribers.
 
 **Line Chart**: Riding Patters by Day of the Week.
 
 ![Line Chart](https://github.com/gntagkas/Bike_Company_Data_Analysis/blob/main/LineChart.png)
-
+ 
+**Chart 2: Line Chart showing the daily ride count for each day of the week, categorized by user type.**
+<br><br>
 The line chart highlights a clear riding pattern:
 
 - Subscribers use bikes more frequently on weekdays, suggesting that they primarily use them for commuting to work
 
 - Customers on the other hand, tend to use bikes more on weekends, with a slight increase on Fridays, suggesting a preference for recreational use.
+
+---  
 
 ### 6. Recommendations
 
