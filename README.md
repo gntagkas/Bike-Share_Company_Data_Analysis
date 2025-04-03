@@ -1,4 +1,4 @@
-# Cyclistic Bike-Share Case Study: 
+# Cyclistic Bike-Share Case Study
 
 ##  Introduction to the Problem
 
@@ -47,4 +47,52 @@ The company Cyclistic aims to increase the amount of its annual memberships, as 
 
 ### 2. Data Sources
 
+We used  Cyclistic’s historical trip data to analyze and identify trends. More specifically, we used data from Q1 and Q2 of 2019. The data is public and more specifically, provides the following information about user trips:
 
+- Unique trip ID
+- Start and End time (Date and Time)
+- Bike ID
+- Tripduration (in seconds)
+- Start and end station IDs
+- Start and end station names
+- Usertype (Subscriber for Cyclist Members or Customer for Casual riders)
+- Gender
+- Birthyear
+
+Data Credibility is ensured by the following:
+
+- The dataset is public and freely accessible to anyone.
+- The data doesn't include personally identifable information for privacy reasons, so individual user behaviors cannot be tracked.
+- The dataset has been made available by Motivate International Inc.
+
+### 3. Data Cleaning & Manipulation
+
+For this project we chose to work with SQL (PostgreSQL) due to the large size of the dataset, making data cleaning using spreadsheets impossible.
+
+### Data Manipulation
+
+Handling tripduration format: 
+
+The tripduration column was originally formattedas x,xxx.xx (e.g. 1,353.20). However this format isn't recognized by SQL an numeric due to the comma. To resolve this, we performed the following steps:
+
+1. Created a temporary table for both Q1 and Q2 of 2019, where the tripduration column was stored as TEXT.
+2. Inserted data into our temporary table.
+3. Inserted the data to our main table, converting column tripduration from TEXT to NUMERIC while removing the comma.
+4. Merged the Q1 and Q2 2019 tables into a single table.
+
+Adding two new columns:
+
+We were asked to introduce two new columns to our table:
+
+1. Age: We calculated this using the birthyear column.
+2. day_of_the_week: We used start_time to extract the day of the week each ride started.
+
+### Data Cleaning
+
+Data Cleaning Steps & Actions Taken:
+
+1. Duplicate Check: No duplicate records found.
+2. Null Values Check: No missing values in important columns. 
+3. Spelling Mistakes: No issues found in usertype and gender column (around ~14% of gender records missing, not a problem).
+4. Date Validation: No inconsistencies in start_time and end_time and no records found outside of Q1-Q2 of 2019.
+5. Station Names & ID Consistency: No issues detected.
