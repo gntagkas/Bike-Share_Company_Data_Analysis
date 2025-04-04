@@ -142,9 +142,9 @@ Key Differences Between Casual Riders and Subscribers
 
 **Age Patterns**
 
-- Subscribers are slightly older than Casual Riders.
-- Average age of a subscriber is 36 years old, compared to 30.6 years old for Casual Riders.
-- This age gap remains across both genders, with Subscribers being about 5.5 years older on average.
+- Annual Members are slightly older than Casual Riders.
+- The average age of an Annual Member is 36 years old, compared to 30.6 years old for Casual Riders.
+- This age gap remains across both genders, with Annual Members being about 5.5 years older on average.
 
 ---  
 
@@ -160,15 +160,15 @@ We present two key graphs: One focusing on ride duration and the other on riding
 <br><br>
 From the above chart, we can notice that the average trip duration is significantly longer for casual riders compared to subscribers.
 
-**Line Chart**: Riding Patters by Day of the Week.
+**Line Chart**: Riding Patterns by Day of the Week.
 
 ![Line Chart](https://github.com/gntagkas/Bike_Company_Data_Analysis/blob/main/LineChart.png)
  
-**Chart 2: Line Chart showing the daily ride count for each day of the week, categorized by user type.**
+**Chart 2: Line Chart showing ride count by weekday and user type.**
 <br><br>
 The line chart highlights a clear riding pattern:
 
-- Subscribers use bikes more frequently on weekdays, suggesting that they primarily use them for daily commuting (e.g. move to work).
+- Annual Members use bikes more frequently on weekdays, suggesting that they primarily use them for daily commuting (e.g. move to work).
 
 - Customers on the other hand, tend to use bikes more on weekends, with a slight increase on Fridays, suggesting a preference for recreational use.
 
