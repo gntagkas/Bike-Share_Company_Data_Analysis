@@ -2,14 +2,14 @@
 
 ##  Introduction to the Problem
 
-As a junior data analyst we are working within the marketing analysis team at a bike-sharing company in Chicago, called Cyclistic.
+As a junior data analyst, we are working within the marketing analysis team at a bike-sharing company in Chicago, called Cyclistic.
 
 **Cyclistic**: A bike-share program that features more than 5800 bicycles and 600 docking stations. Cyclistic sets itself apart by also offering reclining bikes, hand tricycles, and cargo bikes, making bike-share more inclusive to people with disabilities
 and riders who can’t use a standard two-wheeled bike.
 
 The bikes can be unlocked from one station and returned to any other station in the system anytime. The company decided to offer flexible pricing plans, including: single-ride passes, full-day passes, and annual memberships.
 
-- Casual Riders: Customers who purchase single-ride or fully-day passes.
+- Casual Riders: Customers who purchase single-ride or full-day passes.
 - Annual Members: Customers who purchase annual memberships.
 
 For clarity, throughout this report:
@@ -49,7 +49,7 @@ You will produce a report with the following deliverables:
 
 ### 1. Business Task
 
-The company Cyclistic aims to increase the amount of its annual memberships, as Cyclistic members are more profitable compared to casual riders. Our main task is to design marketing strategies that will encourage casual riders to convert into Cyclist members. In order to achieve this, the team needs to understand from our analysis how casual riders use bicycles compared to Cyclist members or otherwise how casual riders differ from Cyclistic members.
+The company Cyclistic aims to increase the amount of its annual memberships, as annual Members are more profitable compared to casual riders. Our main task is to design marketing strategies that will encourage casual riders to convert into annual members. In order to achieve this, the team needs to understand from our analysis how casual riders use bicycles compared to annual members or otherwise how casual riders differ from annual members.
 
 ---  
 
@@ -83,7 +83,7 @@ For this project we chose to work with SQL (PostgreSQL) due to the large size of
 
 Handling tripduration format: 
 
-The `tripduration` column was originally formatted as `x,xxx.xx` (e.g. `1,353.20`). However this format isn't recognized by SQL an numeric due to the comma. To resolve this, we performed the following steps:
+The `tripduration` column was originally formatted as `x,xxx.xx` (e.g. `1,353.20`). However this format isn't recognized by SQL as numeric due to the comma. To resolve this, we performed the following steps:
 
 1. Created a temporary table for both Q1 and Q2 of 2019, where the `tripduration` column was stored as `TEXT`.
 2. Inserted data into our temporary table.
@@ -140,7 +140,7 @@ Key Differences Between Casual Riders and Subscribers
 - The most popular stations vary between Casual Riders and Subscribers.
 - No clear patterns were identified.
   
-*There may be underlying patters in the stations selected by Subscribers and Casual Riders, such as a preference for central or tourist locations by one of the two groups. However, these patters were difficult to identify in this analysis*.
+*There may be underlying patterns in the stations selected by Subscribers and Casual Riders, such as a preference for central or tourist locations by one of the two groups. However, these patters were difficult to identify in this analysis*.
 
 **Riding Patterns**
 
@@ -175,7 +175,7 @@ From the above chart, we can notice that the average trip duration is significan
 <br><br>
 The line chart highlights a clear riding pattern:
 
-- Subscribers use bikes more frequently on weekdays, suggesting that they primarily use them for daily commuting (e.g. move to work).
+- Subscribers use bikes more frequently on weekdays, suggesting that they primarily use them for daily commuting (e.g. commuting to work).
 
 - Customers on the other hand, tend to use bikes more on weekends, with a slight increase on Fridays, suggesting a preference for recreational use.
 
