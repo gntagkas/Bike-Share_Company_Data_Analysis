@@ -128,6 +128,7 @@ Key Differences Between Casual Riders and Subscribers
 
 - Casual riders tend to take longer rides than Subscribers.
 - The average trip duration for a Casual Rider is 40.41 minutes, while for a Subscriber it's only 14 minutes.
+- The higher average trip duration for Casual Riders suggests that many of them are tourists, which make it difficult to convert them to Annual Members.
 
 **Popular Stations**
 
