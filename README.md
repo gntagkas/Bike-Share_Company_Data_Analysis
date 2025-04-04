@@ -185,20 +185,23 @@ The line chart highlights a clear riding pattern:
 
 Based on our findings, we propose the following strategies to convert Casual Memberships into Annual Members:
 
+**Special Discounts on Weekends**
+
+- Introduce exclusive discounts available only on Saturdays and Sundays.
+
+*When a casual rider uses the service during the weekend, show a message in the app like: Only this weekend, upgrade to an annual membership and enjoy Y% off!!*
+
 **Discounts & Offers**
 
 - For frequent users: Create special offers for Casual Riders who complete at least four trips within a month.
-- For occasional users: Offer targeted discounts or provide the first month free as a trial for Casual Riders who make one or two trips per month and have been using the app for at least three months
+- For occasional users: Offer targeted discounts or provide the first month free as a trial for Casual Riders who make one or two trips per month and have been using the app for at least three months.
 
 **Save Money Alert**
 
 - Send personalized e-mails to Casual Riders with increased usage (at least 5 rides within a month).
+
 *You spent $X money this month. If you were a member, you would have spent $Y. Upgrade to membership and enjoy up to Y% discount.*
 
-Welcome Back Offers
-
-- Send personalized e-mails to users whose annual subscription has expired and who have just reused the service as Casual Riders.
-*Welcome back. You were once a member. Limited offer, upgrade within 15 days and get 20% off.*
 
 
 
