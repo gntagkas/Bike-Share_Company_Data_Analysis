@@ -137,7 +137,7 @@ Key Differences Between Casual Riders and Subscribers
 **Riding Patterns**
 
 - Casual Riders tend to use bikes more on weekends, indicating entertainment purposes.
-- Subscribers tend to use bikes more on weekdays, indicating work-related use.
+- Subscribers tend to use bikes more on weekdays, indicating usage for daily commuting (e.g, move to work).
 
 **Age Patterns**
 
@@ -175,4 +175,7 @@ The line chart highlights a clear riding pattern:
 
 ### 6. Recommendations
 
-Based on our findings, we propose the following strategies to convert Casual Memberships into annual members:
+Based on our findings, we propose the following strategies to convert Casual Memberships into Annual Members:
+
+
+
