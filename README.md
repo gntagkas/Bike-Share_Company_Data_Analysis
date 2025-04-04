@@ -78,42 +78,42 @@ For this project we chose to work with SQL (PostgreSQL) due to the large size of
 
 Handling tripduration format: 
 
-The tripduration column was originally formattedas x,xxx.xx (e.g. 1,353.20). However this format isn't recognized by SQL an numeric due to the comma. To resolve this, we performed the following steps:
+The tripduration column was originally formatted as x,xxx.xx (e.g. 1,353.20). However this format isn't recognized by SQL an numeric due to the comma. To resolve this, we performed the following steps:
 
 1. Created a temporary table for both Q1 and Q2 of 2019, where the tripduration column was stored as TEXT.
 2. Inserted data into our temporary table.
 3. Inserted the data to our main table, converting column tripduration from TEXT to NUMERIC while removing the comma.
 4. Merged the Q1 and Q2 2019 tables into a single table.
 
-Adding two new columns:
+Adding new columns:
 
-We were asked to introduce two new columns to our table:
+We were required to introduce two new columns to our table:
 
 1. Age: We calculated this using the birthyear column.
 2. day_of_the_week: We used start_time to extract the day of the week each ride started.
 
 ###  Data Cleaning
 
-Data Cleaning Steps & Actions Taken:
+Steps & Actions Taken:
 
 1. Duplicate Check: No duplicate records found.
 2. Null Values Check: No missing values in important columns. 
-3. Spelling Mistakes: No issues found in usertype and gender column (around ~14% of gender records missing, not a problem).
-4. Date Validation: No inconsistencies in start_time and end_time and no records found outside of Q1-Q2 of 2019.
+3. Spelling Mistakes: No issues found in usertype and gender column. Around ~14% of gender records missing, not a problem.
+4. Date Validation: No inconsistencies were found between start_time and end_time and no records found outside of Q1-Q2 of 2019.
 5. Station Names & ID Consistency: No issues detected.
 
 While most checks showed no issues, two problems were identified and adressed:
 
 **Tripduration errors**: 
 
-- No negative values were found in tripduration column. 
+- No negative values were found.
 - However, 412 records for Customers exceeded 24hours, which was considered invalid. These records were deleted.
 
 *Definition for Customers: Customers who purchase single-ride or full-day passes are referred to as casual riders.*
 
 **Birthyear Check**: 
 
-- No negative values were found in the birthyear column.
+- No negative values were found.
 - However, 386 records had birthyear earlier than 1929, which was considered invalid. These records were replaced with NULL values.
 
 *Clarification: We consider any birthyear below 1929 to be invalid.*
