@@ -1,0 +1,1 @@
+CREATE database practice_for_google;
