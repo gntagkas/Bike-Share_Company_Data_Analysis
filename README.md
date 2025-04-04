@@ -22,7 +22,7 @@ Cyclistic’s finance analysts have concluded that annual members are much more 
 
 The primary goal is to design marketing strategies aimed at converting Casual Riders into Annual Members.
 
-In order to achieve this, the team needs to better understand how annual members and casual riders differ, why casual riders would buy a membership, and how digital media could affect their marketing tactics.
+In order to achieve this, the team needs to better understand how annual members and casual riders differ.
 
 ---  
 
