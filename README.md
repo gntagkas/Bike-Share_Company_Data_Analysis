@@ -12,6 +12,10 @@ The bikes can be unlocked from one station and returned to any other station in 
 - Casual Riders: Customers who purchase single-ride or fully-day passes.
 - Annual Members: Customers who purchase annual memberships.
 
+For clarity, throughout this report:
+
+- Annual Members will be referred as "Subscribers".
+
 The majority of riders opt for traditional bikes; about 8% of riders use the assistive options. Cyclistic users are more likely to ride for leisure, but about 30% use the bikes to commute to work each day.
 
 Cyclistic’s finance analysts have concluded that annual members are much more profitable than casual riders. The director of marketing (Moreno) believes that maximizing the number of annual members will be key to future growth. Rather than creating a marketing campaign that targets all-new customers, Moreno believes there is a solid opportunity to convert casual riders into members.
