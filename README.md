@@ -161,7 +161,7 @@ We present two key graphs: One focusing on ride duration and the other on riding
 
 **Bar Chart**: Average Trip Duration by User Type
 
-![Bar Chart](https://github.com/gntagkas/Bike_Company_Data_Analysis/blob/main/BarChart.png)
+![Bar Chart](https://github.com/gntagkas/Bike_Company_Data_Analysis/blob/main/Graphs/BarChart.png)
 
 **Chart 1: Bar Chart for Average Trip Duration by User Type.**
 <br><br>
