@@ -200,7 +200,7 @@ Based on our findings, we propose the following strategies to convert Casual Mem
 
 - Send personalized e-mails to Casual Riders with increased usage (at least 5 rides within a month).
 
-*You spent $X money this month. If you were a member, you would have spent $Y. Upgrade to membership and enjoy up to Y% discount.*
+*You spent $X money this month. If you were a member, you would have spent $Y. Upgrade to membership and enjoy up to Y% discount.
 
 
 
