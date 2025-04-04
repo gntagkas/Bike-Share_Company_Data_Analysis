@@ -169,7 +169,7 @@ From the above chart, we can notice that the average trip duration is significan
 
 **Line Chart**: Riding Patterns by Day of the Week.
 
-![Line Chart](https://github.com/gntagkas/Bike_Company_Data_Analysis/blob/main/LineChart.png)
+![Line Chart](https://github.com/gntagkas/Bike_Company_Data_Analysis/blob/main/Graphs/LineChart.png)
  
 **Chart 2: Line Chart showing ride count by weekday and user type.**
 <br><br>
