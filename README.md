@@ -14,7 +14,8 @@ The bikes can be unlocked from one station and returned to any other station in 
 
 For clarity, throughout this report:
 
-- Annual Members will be referred as "Subscribers".
+- Annual Members will also be referred to as "Subscribers".
+- Casual Riders will also be referred to as "Customers".
 
 The majority of riders opt for traditional bikes; about 8% of riders use the assistive options. Cyclistic users are more likely to ride for leisure, but about 30% use the bikes to commute to work each day.
 
@@ -103,7 +104,7 @@ Steps & Actions Taken:
 1. Duplicate Check: No duplicate records found.
 2. Null Values Check: No missing values in important columns. 
 3. Spelling Mistakes: No issues found in `usertype` and `gender` column. Around ~14% of gender records missing, not a problem.
-4. Date Validation: No inconsistencies were found between start_time and end_time and no records found outside of Q1-Q2 of 2019.
+4. Date Validation: No inconsistencies were found between `start_time` and `end_time` and no records found outside of Q1-Q2 of 2019.
 5. Station Names & ID Consistency: No issues detected.
 
 While most checks showed no issues, two problems were identified and adressed:
@@ -138,6 +139,8 @@ Key Differences Between Casual Riders and Subscribers
 
 - The most popular stations vary between Casual Riders and Subscribers.
 - No clear patterns were identified.
+  
+*There may be underlying patters in the stations selected by Subscribers and Casual Riders, such as a preference for central or tourist locations by one of the two groups. However, these patters were difficult to identify in this analysis*.
 
 **Riding Patterns**
 
