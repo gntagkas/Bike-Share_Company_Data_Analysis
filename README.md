@@ -2,7 +2,7 @@
 
 ##  Introduction to the Problem
 
-**Scenario**: As a junior data analyst, we are working within the marketing analysis team at a bike-sharing company in Chicago, called Cyclistic.
+**Scenario**: You are a junior data analyst working within the marketing analysis team at a bike-sharing company in Chicago, called **Cyclistic**.
 
 **Cyclistic**: A bike-share program that features more than 5800 bicycles and 600 docking stations. Cyclistic sets itself apart by also offering reclining bikes, hand tricycles, and cargo bikes, making bike-share more inclusive to people with disabilities
 and riders who can’t use a standard two-wheeled bike.
