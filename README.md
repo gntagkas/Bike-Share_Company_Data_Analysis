@@ -45,7 +45,7 @@ You will produce a report with the following deliverables:
 6. Your recommendations based on your analysis
 
 
-##  Solution to the Problem
+##  Report
 
 ### 1. Business Task
 
